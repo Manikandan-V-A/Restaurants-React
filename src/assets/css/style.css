@@ -739,9 +739,10 @@ section {
   }
 
   .home {
-    background-position: left;
-    justify-content: center;
-    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.897)),  
+    url(../images/home-img2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: right;
   }
 
   .home .content h3 {

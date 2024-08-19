@@ -17,7 +17,9 @@ const Products = () => {
                 <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
+              <a href="#">
                 <img src={item.img} alt="" />
+                </a>
               </div>
               <div className="content">
                 <h3>{item.name}</h3>
